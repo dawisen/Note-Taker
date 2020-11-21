@@ -7,7 +7,7 @@ var PORT = process.env.PORT || 8080;
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.urlencoded({
   extended: true
-}))
+}));
 //require these route files so that the server's get request returns
 //and displays the html and api pages
 require('./routes/apiRoutes')(app);
