@@ -5,13 +5,14 @@ var app = express();
 var PORT = process.env.PORT || 8080;
 //these app.use handlers parse the note data
 app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.json());
 app.use(express.urlencoded({
   extended: true
 }));
 //require these route files so that the server's get request returns
 //and displays the html and api pages
 require('./routes/apiRoutes')(app);
-require('./routes/htmlRoutes')(app);
+require('./routes/htmlroutes')(app);
 
 app.listen(PORT, function () {
   //console.log to tell us the server is running
