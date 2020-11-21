@@ -10,8 +10,8 @@ app.use(express.urlencoded({
 }));
 //require these route files so that the server's get request returns
 //and displays the html and api pages
-require('/routes/apiRoutes')(app);
-require('/routes/htmlRoutes')(app);
+require('./routes/apiRoutes')(app);
+require('./routes/htmlRoutes')(app);
 
 app.listen(PORT, function () {
   //console.log to tell us the server is running
