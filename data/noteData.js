@@ -23,9 +23,17 @@ var notesArray = [
   ];
 
 function addNote(title, text) {
-    notesArray.push({title, text, id: uniqueID()})
+    notesArray.push({title, text, id: uniqueID()});
 }
 
+function deleteNote(id) {
+    notesArray = notesArray.filter(x => x.id !== id)
+    // const idx = notesArray.findIndex((x => x.id === id);
+    // notesArray.splice(idx, 1);
+}
+//create a function to return the new notesArray variable
+function getnotesarray() { return notesArray}
 // export the array to make it accessible in other files using require
 exports.addNote = addNote;
-exports.notes = notesArray;
+exports.deleteNote = deleteNote;
+exports.notes = getnotesarray;
