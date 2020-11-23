@@ -1,5 +1,7 @@
 # Note-Taker
 
+<img src="notesPage.png">
+<img src="noteTakerhomepage.png">
 
 ## Description:
 For users that need to keep track of a lot of information, it's easy to forget or be unable to recall something important. Being able to take and store notes allows users to have written information available when needed. This application allows users to create and save notes as well as view and delete previously saved notes. I am using Heroku to serve and persist data.
