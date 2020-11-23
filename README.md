@@ -1,14 +1,14 @@
 # [Note Taker](https://note-taker-app-1.herokuapp.com/)
-## Deployed on [Heroku](https://note-taker-app-1.herokuapp.com/)
 
-<img src="notesPage.png">
-<img src="noteTakerhomepage.png">
+
+<img src="noteTakerhomepage.PNG">
+<img src="notesPage.PNG">
+
+## Deployed on [Heroku](https://note-taker-app-1.herokuapp.com/)
 
 ## Description:
 For users that need to keep track of a lot of information, it's easy to forget or be unable to recall something important. Being able to take and store notes allows users to have written information available when needed. This application allows users to create and save notes as well as view and delete previously saved notes. I am using Heroku to serve and persist data.
 
-## Demo Video
-[Watch my demo on YouTube](/////////////////)
 ## Table of Contents
 
 * [Installation](#Installation)
